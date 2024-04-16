@@ -1,7 +1,6 @@
-import dotenv from 'dotenv';
+import 'dotenv/config';
 import mysql from 'mysql2/promise';
 
-dotenv.config();
 const {
     MYSQL_HOST,
     MYSQL_USER,
